@@ -48,9 +48,6 @@ public class Hero : MonoBehaviour
         Jump();
         SetAnimatorParameters();
         UpdateSpriteFlip();
-
-
-
     }
 
     private void UpdateSpriteFlip()

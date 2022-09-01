@@ -5,10 +5,10 @@ namespace Components
     public class CollectObjectComponent : MonoBehaviour
     {
         [SerializeField] private int _price;
-        [SerializeField] private Hero _hero;
+        [SerializeField] private Hero _object;
         public void OnCollectable()
         {
-            _hero.AddMoney(_price);
+            _object.AddMoney(_price);
         }
     }
 }
