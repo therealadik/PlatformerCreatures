@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &854368563145598531
+--- !u!1 &9105816731278597959
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,38 +8,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 854368563145598652}
-  - component: {fileID: 854368563145598653}
-  - component: {fileID: 2197777957497268975}
+  - component: {fileID: 3846354893834116094}
+  - component: {fileID: 3108396075420028550}
+  - component: {fileID: 5334616154531635508}
   m_Layer: 0
-  m_Name: WaterReflectMedium
+  m_Name: Palm2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &854368563145598652
+--- !u!4 &3846354893834116094
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 854368563145598531}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.5298595, y: -5.41, z: 0}
-  m_LocalScale: {x: 1.6731974, y: 1.6731974, z: 1.6731974}
+  m_GameObject: {fileID: 9105816731278597959}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &854368563145598653
+--- !u!212 &3108396075420028550
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 854368563145598531}
+  m_GameObject: {fileID: 9105816731278597959}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -73,25 +73,25 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1213337131
   m_SortingLayer: 1
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 317025278, guid: 23b7fe343d472404ca78a7b8a80a7fad, type: 3}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: -281005406, guid: cd1bd0f04b305414e88b99ff7fbe47d1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2, y: 0.5}
+  m_Size: {x: 2, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2197777957497268975
+--- !u!114 &5334616154531635508
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 854368563145598531}
+  m_GameObject: {fileID: 9105816731278597959}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65c7377a4127a2c4395e57401383f29a, type: 3}
@@ -100,10 +100,10 @@ MonoBehaviour:
   _frameRate: 10
   _loop: 1
   _sprites:
-  - {fileID: 317025278, guid: 23b7fe343d472404ca78a7b8a80a7fad, type: 3}
-  - {fileID: 564345617, guid: 23b7fe343d472404ca78a7b8a80a7fad, type: 3}
-  - {fileID: -1034028322, guid: 23b7fe343d472404ca78a7b8a80a7fad, type: 3}
-  - {fileID: 405356500, guid: 23b7fe343d472404ca78a7b8a80a7fad, type: 3}
+  - {fileID: -281005406, guid: cd1bd0f04b305414e88b99ff7fbe47d1, type: 3}
+  - {fileID: 453538312, guid: cd1bd0f04b305414e88b99ff7fbe47d1, type: 3}
+  - {fileID: -1201484527, guid: cd1bd0f04b305414e88b99ff7fbe47d1, type: 3}
+  - {fileID: 1057460184, guid: cd1bd0f04b305414e88b99ff7fbe47d1, type: 3}
   _onComplete:
     m_PersistentCalls:
       m_Calls: []
